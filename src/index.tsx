@@ -196,23 +196,25 @@ export default Ruler
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    marginTop: 50,
+    paddingVertical: 10,
+    position: 'relative',
   },
   bar: {
     width: 1,
     height: 10,
     backgroundColor: 'black',
     marginHorizontal: 3,
+    marginTop: 7.5,
   },
   mediumBar: {
     width: 1.5,
     height: 15,
-    marginTop: -2.5,
+    marginTop: 5,
   },
   largeBar: {
     width: 2,
     height: 20,
-    marginTop: -5,
+    marginTop: 2.5,
   },
   marker: {
     position: 'absolute',
@@ -221,7 +223,6 @@ const styles = StyleSheet.create({
     width: 2,
     height: 40,
     top: 0,
-    marginTop: 35,
     backgroundColor: 'black',
   },
 })
